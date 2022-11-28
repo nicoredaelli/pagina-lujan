@@ -1,0 +1,107 @@
+/*loundoad*/
+
+
+
+body{
+    background-image: url(fondo-lujan.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: center;
+    font-weight: bold; 
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.968);/*borde de todeo formulario*/
+    color: white;
+    background-position: center;
+    
+}
+
+.form-control{
+    background-color: rgba(0, 0, 0, 0.15);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+.form-control input{
+    color: white;
+}
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+.form-control::placeholder{
+    color: white;
+}
+::placeholder{
+    font-weight: bold; 
+}
+.h1 a{
+    font-weight: bold; 
+}
+input{
+    color: white;
+}
+.ingresar{
+    background-color: #7b6c5fb6;
+    padding: 10px;
+    font-weight: 700 !important;
+    font-size: 1.1rem;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    transition: 1s ease-in;
+    font-weight: bold; 
+    
+}
+
+.ingresar:hover{
+    color: white;
+}
+
+.olvide{
+    color:white;
+    font-size: 1.1rem;
+}
+
+.olvide:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.registrarse{
+    color:white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-weight: 700!important;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .6);
+    
+}
+
+
+.registrarse:hover{
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+h2{
+    font-size:1.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: bold; 
+}
+input text{
+    color: white;
+  }
